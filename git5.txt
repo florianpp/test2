@@ -1,0 +1,15 @@
+Zamierzamy zachowaæ prostotê dziêki instalacji Git na Windows i Mac OS X.
+
+W systemie Windows pobierzemy i zainstalujemy Git dla Windows.
+
+Poprowadzê Ciê przez ka¿dy ekran procesu instalacji i wyjaœniê dostêpne opcje.
+
+W systemie Mac OS X wykonamy najprostsz¹ mo¿liw¹ trasê, instaluj¹c narzêdzia wiersza poleceñ dostêpne bezp³atnie w firmie Apple.
+
+Tak czy inaczej, po zainstalowaniu Git w systemie, polecenia u¿ywane w trakcie kursu bêd¹ identyczne,
+
+z wyj¹tkiem u¿ytych edytorów tekstu.
+
+Na Macu u¿yjê TextMate 2, który mo¿na pobraæ bezp³atnie.
+
+W systemie Windows notatnik bêdzie dzia³a³ w podobny sposób.

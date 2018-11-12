@@ -1,0 +1,31 @@
+Po zatwierdzeniu wspomnia³em o tym, ¿e nasz nowy plik znajduje siê teraz w lokalnym repozytorium.
+
+Zatwierdzenie nadal jest lokaln¹ komend¹; co oznacza, ¿e ??nasz plik nie jest jeszcze na GitHub.
+
+Aby to udowodniæ, wróæmy do przegl¹darki. Powinniœmy nadal byæ na naszej g³ównej stronie repozytorium;
+
+odœwie¿ lub prze³aduj przegl¹darkê, aby odœwie¿yæ zawartoœæ tej strony.
+
+Powinieneœ zauwa¿yæ, ¿e wci¹¿ mamy plik README na GitHub.
+
+Jest wiêc ostatni krok, który musimy zrobiæ, i to jest pchniêcie. Wiêc wróæ do terminalu,
+
+i wpisz: "git push origin master". Ta wersja polecenia "git push"
+
+okreœla nazwê zdaln¹, która jest Ÿród³em,
+
+który zosta³ skonfigurowany automatycznie, gdy sklonowaliœmy repozytorium z GitHub;
+
+i nazwê oddzia³u do pchania, która jest mistrzem, poniewa¿ jest to jedyna ga³¹Ÿ, jak¹ mamy.
+
+Teraz naciœnij enter. Poniewa¿ wprowadzasz zmiany w swoim repozytorium na GitHub,
+
+polecenie "git push" wyœwietli monit o podanie nazwy u¿ytkownika i has³a GitHub.
+
+Po powrocie polecenia push mo¿emy sprawdziæ wyniki.
+
+Jeœli zrobiliœmy wszystko poprawnie, nasz nowy plik powinien znajdowaæ siê w kopii naszego repozytorium GitHub.
+
+SprawdŸmy to, powracaj¹c do naszej przegl¹darki; teraz odœwie¿ stronê ponownie.
+
+Teraz powinien pojawiæ siê nasz plik "start.txt". Jeœli kliknê nazwê pliku, widzê równie¿ zawartoœæ tego pliku.

@@ -1,0 +1,55 @@
+Zacznê od przejœcia na GitHub. Chocia¿ istnieje kilka us³ug hostingowych Git tam,
+
+GitHub jest zdecydowanie najbardziej popularny. Otwórz wiêc swoj¹ ulubion¹ nowoczesn¹ przegl¹darkê, a nastêpnie przejdŸ do "github.com".
+
+Po za³adowaniu strony mo¿esz siê zalogowaæ lub zarejestrowaæ. Jeœli masz ju¿ konto w GitHub,
+
+nastêpnie kliknij przycisk "Zaloguj siê" u góry strony, która ³aduje stronê logowania.
+
+U¿yj swojej nazwy u¿ytkownika i has³a GitHub, aby zalogowaæ siê na swoje konto GitHub;
+
+Jeœli jednak nie masz doœwiadczenia w GitHub, musisz za³o¿yæ konto.
+
+Ze strony g³ównej GitHub wype³nij formularz rejestracji, aby rozpocz¹æ proces.
+
+Mo¿esz zostaæ poproszony o kolejny ekran, jeœli Twoja pocz¹tkowa nazwa u¿ytkownika jest ju¿ zajêta.
+
+Jeœli tak, wype³nij tê stronê, dopóki nie wybierzesz nazwy u¿ytkownika, która nie zosta³a jeszcze zajêta.
+
+Po przejœciu na stronê "Witamy w GitHub" oficjalnie masz konto.
+
+Obecnie GitHub korzysta ze strony powitalnej, aby zachêciæ Ciê do zapisania siê na p³atny poziom.
+
+Jednak; domyœlnie jest darmowe konto i to wszystko, czego potrzebujemy do tego kursu.
+
+W tym momencie kliknij swoj¹ nazwê u¿ytkownika u góry strony. Spowoduje to za³adowanie strony profilu GitHub.
+
+Teraz kliknij na dziwnie wygl¹daj¹c¹ ikonê w górnej lewej czêœci strony.
+
+Jest to logo octokat u¿ywane przez GitHub. Po klikniêciu tego logo, przejdziesz do strony z wiadomoœciami.
+
+Jest to strona, na któr¹ zwykle l¹dujesz, gdy po prostu zalogujesz siê do GitHub. Które powinny teraz mieæ wszystkich na tej samej stronie.
+
+Stwórzmy nowe repozytorium Git, klikaj¹c zielony przycisk "Nowe repozytorium" w prawej czêœci strony.
+
+Po za³adowaniu nowej strony repozytorium zobaczysz formularz z proœb¹ o kilka informacji.
+
+W przypadku nowych kont na liœcie powinien byæ tylko jeden w³aœciciel, który powinien mieæ domyœln¹ nazwê u¿ytkownika.
+
+Nazwa repozytorium to nazwa, któr¹ chcesz nadaæ repozytorium Git.
+
+Polecam krótk¹, ale opisow¹ nazwê we wszystkich ma³ych literach, bez spacji i s³ów oddzielonych myœlnikami.
+
+Zamierzam u¿yæ github-demo dla nazwy repozytorium.
+
+Opis jest opcjonalny, ale na pewno dobry pomys³. Zamierzam wpisaæ:
+
+"Proste repozytorium demo pokazuj¹ce podstawowy przep³yw pracy Git".
+
+Zamierzam opuœciæ repozytorium jako publiczne, a nastêpnie klikn¹æ "Zainicjuj to repozytorium za pomoc¹ README".
+
+To rozpocznie siê od naszego repozytorium za pomoc¹ prostego pliku readme. Pozostawiam pozosta³e opcje samemu,
+
+Dwukrotnie sprawdŸ formularz, wprowadŸ ewentualne poprawki, a nastêpnie kliknij przycisk "Utwórz repozytorium".
+
+Gdy to zrobisz, repozytorium zostanie utworzone, a wyl¹dujesz na g³ównej stronie repozytorium.

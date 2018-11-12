@@ -1,0 +1,119 @@
+W tym filmie omówiê, jak rozpocz¹æ nowy projekt bez ¿adnego istniej¹cego kodu Ÿród³owego.
+
+W ramach tego demo zamierzam u¿yæ tekstu wype³niacza ze strony internetowej hipster ipsum,
+
+który jest dostêpny na "hipsum.co".
+
+Wiêc na pocz¹tek powrócê do mojego terminalu i zacznê w katalogu domowym mojego u¿ytkownika.
+
+"pwd" pokazuje, ¿e jestem w folderze g³ównym katalogu domowego mojego u¿ytkownika.
+
+Tam mam folder projektów. Tak wiêc "projekty cd" i tutaj chcê stworzyæ nowe, nowe repozytorium Git.
+
+W tym celu u¿yjê polecenia "init" Gita. Wiêc "git init", a nastêpnie nazwa twojego projektu.
+
+W tym przyk³adzie nazwê to "œwie¿y projekt". Teraz naciœnij enter.
+
+W ten sposób Git utworzy³ folder o nazwie "fresh-project". Wiêc jeœli zrobiê "ls",
+
+widaæ, ¿e mam folder "fresh-project". W porz¹dku, wiêc przejdŸmy do tego:
+
+wiêc "cd fresh-project /", teraz naciœnij enter.
+
+Przedstawiê tutaj kilka wa¿nych informacji; jeœli zrobiê "ls",
+
+zobaczysz, ¿e nie ma nowych plików ani folderów. Jednak jeœli zrobiê "ls -al";
+
+która poleca liœcie polecenie do listy wszystkich plików i folderów, w tym plików i folderów dot,
+
+i "-l" mówi, aby lista w formacie listy. Teraz mo¿esz zobaczyæ, ¿e mamy folder ".git".
+
+To w³aœnie tam mieszka repozytorium Git. Folder, w którym teraz jestem, jest faktycznie folderem roboczym.
+
+Wiêc jeœli przejdê do folderu ".git", mo¿esz zrobiæ "ls", mo¿esz zobaczyæ wszystkie ró¿ne foldery i pliki
+
+które tworz¹ wewnêtrznie repozytorium Git. Wiêc jeœli wrócê,
+
+teraz wracam do katalogu roboczego i zamierzam zrobiæ jeszcze jedn¹ rzecz; Zamierzam u¿yæ polecenia "status" Gita,
+
+co pozwoli mi poznaæ status repozytorium Git. Wpisz "status git",
+
+naciœnij enter, a polecenie "git status" powie nam, ¿e jesteœmy w ga³êzi master.
+
+Teraz, jak opisano wczeœniej, ga³¹Ÿ g³ówna jest domyœln¹ ga³êzi¹, któr¹ Git daje nam na pocz¹tku.
+
+Zawsze mo¿emy stworzyæ wiêcej oddzia³ów póŸniej, ale na razie pozostaniemy na planie.
+
+Git mówi mi, ¿e jestem na pierwszym zatwierdzeniu i ¿e nie mam jeszcze nic do powiedzenia.
+
+A to dlatego, ¿e jeszcze nie utworzy³em ¿adnych plików. Có¿, zróbmy to.
+
+Wiêc jeœli wrócê do przegl¹darki i zobaczysz, ¿e jestem na stronie Hipster Ipsum.
+
+Cztery akapity s¹ w porz¹dku; prawdopodobnie u¿yjemy pierwszego.
+
+I naprawdê nie ma znaczenia, któr¹ opcjê wybierzesz tutaj: potrzebujemy tylko tekstu wype³niacza.
+
+Wiêc "Pijcie mnie!" jest sposób, w jaki otrzymujemy tekst, wiêc zamierzam po prostu wzi¹æ ten pierwszy akapit,
+
+kliknij przycisk sterowania lub kliknij prawym przyciskiem myszy, a nastêpnie skopiuj. To umieszcza ten tekst w schowku,
+
+a teraz powrócê do wiersza polecenia. Teraz utwórzmy nowy plik:
+
+Wiêc "mate", a nastêpnie nazwa pliku: po prostu utworzê "hipster.txt",
+
+teraz naciœnij enter. To odpala TextMate.
+
+A teraz powinniœmy po prostu wcisn¹æ komendê + v, by wkleiæ wszystko, co jest Iusum lorem.
+
+Œwietny. Teraz zapiszmy, wykonuj¹c polecenie + s, i zamknij: command + w.
+
+Teraz, gdy wróciliœmy do wiersza poleceñ, teraz, gdy wykonujê "status git";
+
+ponownie, Git przypomina nam, ¿e jesteœmy w g³ównej ga³êzi i ¿e budujemy nasze pierwsze zatwierdzenie.
+
+Mamy jednak dodatkowe informacje; Git mówi mi, ¿e mam kilka nieœledzonych plików,
+
+i widzi plik "hipster.txt". Có¿, jesteœmy obecnie w katalogu roboczym, wiêc Git jeszcze tego nie œledzi.
+
+Aby Git œledzi³ ten plik, musimy po prostu dodaæ ten plik do indeksu Git lub do obszaru postoju GIt.
+
+Aby to zrobiæ, wystarczy wpisaæ "git add", a nastêpnie plik, który chcemy dodaæ. Teraz zamierzam nacisn¹æ enter.
+
+Teraz, jeœli zrobimy nasz "status git", Git mówi nam, ¿e musimy wprowadziæ zmiany.
+
+Oznacza to, ¿e ten nowy plik, "hipster.txt", znajduje siê teraz w obszarze przemieszczania Git.
+
+Mamy plik, który czeka na zatwierdzenie, ale nie jest jeszcze zatwierdzony.
+
+Mo¿emy wycofaæ ten plik i nie wp³ynie to w ¿aden sposób na historiê Git.
+
+Jednak w tym momencie chcê iœæ do przodu z tym plikiem.
+
+Wiêc jeœli teraz wpiszemy "git commit" bez ¿adnych dodatkowych parametrów,
+
+Git wywo³a nasz domyœlny edytor, którym obecnie jest TextMate, dla naszego komunikatu zatwierdzenia.
+
+Teraz mogê wpisaæ wiadomoœæ commit: "Dodawanie nowego pliku z ipsum hipster",
+
+a w drugim wierszu "zrobiono to za pomoc¹ Text Mate 2".
+
+Jedn¹ z zalet u¿ywania edytora tekstów do wysy³ania moich wiadomoœci jest to, ¿e mam mo¿liwoœæ wykonywania wielu komunikatów zatwierdzania linii.
+
+Teraz, aby u¿yæ tego jako komunikatu zatwierdzenia, oszczêdzê, a nastêpnie zamknê.
+
+Polecenie + s, a nastêpnie polecenie + w. Wiêc mo¿esz zobaczyæ, ¿e pope³niono b³¹d
+
+i ¿e u¿y³ komunikatu zatwierdzenia, który wprowadzi³em do edytora tekstu.
+
+Teraz nale¿y zwróciæ uwagê na to, ¿e gdy wiersz polecenia powraca z komunikatem zatwierdzenia,
+
+¿e wszystkie linie s¹ prowadzone razem; wiêc nie zachowa nowej linii,
+
+ale dzieje siê tak tylko w ramach polecenia zatwierdzania Git.
+
+Te znaki nowej linii s¹ zachowywane i poka¿ê ci to póŸniej.
+
+Dodatkowo zauwa¿ysz, ¿e w nawiasie mamy "(root-commit)".
+
+Po prostu daje nam to znaæ

@@ -1,0 +1,49 @@
+Teraz, gdy mamy nasze repozytorium w naszym systemie lokalnym, dodajmy nowy plik.
+
+W tym celu u¿yjê poleceñ basha do utworzenia prostego pliku tekstowego.
+
+Wiêc wpisz: echo; przestrzeñ; i podwójnie cytuje zawartoœæ naszego pliku
+
+"Testuj demo Git Quick Start"; a nastêpnie dwa wiêksze ni¿ znaki
+
+¿e zawartoœæ potoków polecenia echo do pliku "start.txt".
+
+Nastêpnie naciœnij enter. Teraz mo¿emy zobaczyæ plik w naszym katalogu roboczym: "ls".
+
+Mo¿emy równie¿ u¿yæ polecenia cat, aby wyœwietliæ zawartoœæ tego pliku:
+
+"cat start.txt" naciœnij enter. Zobaczmy, co Git myœli o tym pliku:
+
+"git status", naciœnij enter. Teraz, kiedy to robimy, Git mówi, ¿e mamy plik, który nie jest zgrany.
+
+Plik nieœledzony jest po prostu plikiem w naszym katalogu roboczym, który nie zosta³ jeszcze dodany do Git.
+
+Nasza zmiana, czyli nasz nowy plik, znajduje siê w naszym katalogu roboczym.
+
+Nie powiedzieliœmy jeszcze o tym Gitowi, wiêc zajmijmy to siê teraz poleceniem dodawania Gita:
+
+"git add", a nastêpnie nazwa pliku: "start.txt".
+
+Naciœnij enter; teraz jeœli zrobimy "git status", Git mówi nam, ¿e jest nowy plik w strefie przemieszczania,
+
+który Git opisuje jako zmiany, które maj¹ zostaæ zatwierdzone.
+
+Teraz, gdy nasz plik znajduje siê w strefie testowej oczekuj¹cej na zatwierdzenie, nie pope³niliœmy jeszcze ¿adnego.
+
+Nadal mo¿emy wycofaæ zmiany z obszaru przemieszczania i nie wp³yn¹æ w ¿aden sposób na historiê Git.
+
+Obszar przemieszczania ma na celu umo¿liwienie zbudowania kilku powi¹zanych zmian,
+
+wiêc mog¹ zostaæ pope³nione jako pojedyncza jednostka atomowa.
+
+Teraz przejdŸmy do przodu, przypisuj¹c nowy plik do repozytorium:
+
+"git commit -m", a tak¿e podwójnie cytuje komunikat zatwierdzenia: "Dodawanie pocz¹tku pliku tekstowego", a nastêpnie naciœnij klawisz enter.
+
+Œwietnie, teraz jeœli zrobiê "git status", Git mówi nam, ¿e wróciliœmy do czystego katalogu roboczego,
+
+i ¿e nasz g³ówny oddzia³ znajduje siê przed mistrzem pochodzenia przez jedno zatwierdzenie.
+
+Teraz nowy plik zosta³ przeniesiony z obszaru przemieszczania do lokalnego repozytorium.
+
+Poniewa¿ nie ma innych oczekuj¹cych zmian, po zatwierdzeniu Git oznacza katalog roboczy jako czysty.

@@ -1,0 +1,23 @@
+W systemie Windows, jeœli zainstalowa³eœ Git dla Windows i u¿ywasz Git Bash, to wiesz, ¿e Git jest zainstalowany.
+
+Na komputerze Mac jest to mniej oczywiste, wiêc musimy poprosiæ Gita o wersjê, aby potwierdziæ, ¿e Git jest dostêpny:
+
+"wersja git". Jeœli Git odpowie numerem wersji, to Git jest zainstalowany.
+
+W przeciwnym razie mo¿esz potrzebowaæ zainstalowaæ Git przed kontynuowaniem.
+
+Git wymaga dwóch bitów informacji, zanim bêdziemy mogli zrobiæ bardzo du¿o: to jest nazwa i adres e-mail.
+
+Jeœli nie udostêpnimy tej informacji, Git spróbuje j¹ automatycznie obliczyæ.
+
+Jednak; Uwa¿am, ¿e ten proces jest raczej niewiarygodny. Zajmijmy siê teraz:
+
+"git config --global user.name", a w podwójnych cudzys³owach po prostu wpisz swoje imiê.
+
+A nastêpnie wykonamy podobne polecenie dla adresu e-mail:
+
+"git config --global user.email", a w podwójnych cudzys³owach wpisz swój adres e-mail.
+
+Naciœnij enter, a teraz potwierdŸmy: "git config --global --list".
+
+Git powinien wypisaæ twoje imiê i adres e-mail, które poda³eœ powy¿ej.

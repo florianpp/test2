@@ -1,0 +1,24 @@
+
+W tym kursie dowiedzieliœmy siê o kluczowych koncepcjach Git, w tym o tym, jak Git dzia³a wewnêtrznie.
+
+Nastêpnie wprowadzono nas na GitHub i zarejestrowaliœmy konto, jeœli jeszcze go nie mieliœmy.
+
+Stworzyliœmy tak¿e nasze pierwsze repozytorium Git podczas gry na GitHub.
+
+Nastêpnie przepracowaliœmy podstawowy przep³yw pracy Git, klonuj¹c repozytorium GitHub do naszego lokalnego systemu,
+
+wprowadzanie w nim zmian, zatwierdzanie tych zmian, a na koniec przesy³anie tych zmian z powrotem do GitHub.
+
+Mam nadziejê, ¿e ten kurs by³ dla ciebie korzystny. Jeœli podoba³ ci siê ten kurs,
+
+proszê zostawiæ uczciw¹ opiniê, aby inni mogli wiedzieæ, ile ci to pomog³o.
+
+Na koñcu tego kursu doda³em kilka bonusów: ciesz siê nimi!
+
+Równie¿ mój ostatni wyk³ad ma specjalne zni¿ki dla studentów
+
+w przypadku moich innych kursów, w tym mojego wysoko ocenianego, jednogodzinnego kursu na Git,
+
+i mój kompleksowy kurs na Git.
+
+Jeszcze raz dziêkujê za poœwiêcenie czasu na kurs.

@@ -1,0 +1,83 @@
+W tym filmie zainstalujemy Git dla Windows.
+
+W rzeczywistoœci istnieje kilka sposobów instalacji Git w oknach. Zamierzamy u¿yæ projektu "Git for WIndows",
+
+zapewnia nam najbardziej aktualn¹ wersjê dostêpn¹ na platformê Windows.
+
+Ten projekt stanowi ulepszenie w stosunku do starszej wersji git-scm.com wersji Git dla Windows.
+
+W momencie nagrywania tego filmu Git for Windows jest wci¹¿ podgl¹dany; jest jednak bardzo stabilny,
+
+i dla naszych celów bêdzie dobrze. Tak czy siak, zalecam pobranie i zainstalowanie najnowszej wersji Git dla Windows.
+
+Zacznijmy od wywo³ania naszej przegl¹darki, w tym przypadku Google Chrome, a nastêpnie przejdŸ do "git-for-windows.github.io".
+
+Po za³adowaniu strony kliknij przycisk pobierania na stronie g³ównej. To prowadzi nas do strony z list¹ wszystkich dostêpnych pobrañ
+
+dla instalatora GIt for Windows. Widaæ tutaj, ¿e mamy zarówno 32-, jak i 64-bitowe wersje pliku wykonywalnego instalatora.
+
+Poniewa¿ u¿ywam 64-bitowej wersji systemu Windows, wybiorê 64-bitow¹ wersjê Git dla Windows.
+
+Wybierz wersjê Git dla Windows, która najlepiej pasuje do twojego systemu operacyjnego.
+
+Teraz kliknê link do instalatora Git dla mojej platformy. To rozpocznie proces pobierania dla instalatora Git.
+
+Gdy instalator zakoñczy pobieranie, zejdŸ na dó³ i kliknij "Otwórz".
+
+To uruchomi instalator bezpoœrednio z bie¿¹cej lokalizacji. Jeœli pojawi siê monit o ostrze¿enie o zabezpieczeniach,
+
+po prostu kliknij Uruchom. System Windows mo¿e równie¿ monitowaæ o upewnienie siê, ¿e chcesz zainstalowaæ ten program. Kliknij "Tak".
+
+Po uruchomieniu kreatora konfiguracji Git na pierwszej stronie kliknij "Dalej". Druga strona zawiera umowê licencyjn¹.
+
+Ponownie kliknij "Dalej", aby zgodziæ siê na umowê licencyjn¹. Nastêpna strona to miejsce docelowe.
+
+To jest lokalizacja, w której Git zostanie zainstalowany w Twoim systemie. Dla mnie ta lokalizacja jest idealnie dobra, wiêc teraz kliknê "Dalej".
+
+Na stronie "Wybierz komponenty" chcia³bym, aby ikona Git Bash znajdowa³a siê na szybkim uruchomieniu lub pasku zadañ, a tak¿e na pulpicie.
+
+Aby uzyskaæ obie te ikony, zaznaczê "Dodatkowe ikony", które równie¿ sprawdzaj¹ "W programie Quick Launch" oraz "Na pulpicie". Nastêpnie kliknij "Dalej".
+
+To jest folder w menu startowym, w którym zostanie zainstalowany Git. Poniewa¿ wszystko jest w porz¹dku, bêdê kontynuowa³ klikaj¹c "Dalej".
+
+Ta strona okreœla, które czêœci Git i Git Bash s¹ zainstalowane. Chocia¿ bêdziemy u¿ywaæ Git Bash tylko w ramach tego kursu,
+
+Polecam wybraæ œrodkow¹ opcjê. Spowoduje to zainstalowanie Git Bash, a tak¿e integracjê z wierszem poleceñ systemu Windows.
+
+W ten sposób nie wprowadzono ¿adnych powa¿nych zmian do mojego systemu. Jest wiêc elastyczny i doœæ bezpieczny.
+
+Po dokonaniu wyboru kliknij przycisk "Dalej", aby kontynuowaæ. Ten ekran dotyczy sposobu traktowania zakoñczeñ linii.
+
+W systemie Windows pliki tekstowe zwykle koñcz¹ siê inn¹ lini¹ stylu ni¿ pliki tekstowe w systemie Linux lub Mac,
+
+która opcja zostanie wybrana, zale¿y w du¿ej mierze od tego, czy planujesz rozwój wielu platform.
+
+Wolê korzystaæ z opcji œrodkowej: która polega na kasie tak jak jest, to nic nie zmienia, ale nastêpnie zatwierdza styl uniksowy.
+
+Oznacza to, ¿e gdy u¿yjê Git do zatwierdzenia, koñcówki plików dla moich plików tekstowych zostan¹ automatycznie przekonwertowane na koniec linii w stylu Unix.
+
+Poniewa¿ odbijam siê pomiêdzy systemem operacyjnym Windows, Linux i Mac, opcja œrodkowa ma dla mnie najwiêkszy sens.
+
+Jeœli wykonasz wszystkie swoje prace rozwojowe w systemie Windows, a to dotyczy wszystkich cz³onków zespo³u dziel¹cych te same repozytoria Git,
+
+wtedy ostatnia opcja "commit as-is" bêdzie opcj¹, któr¹ chcesz wybraæ. Znowu trzymam siê opcji œrodkowej,
+
+a jeœli chcê póŸniej, to mo¿na zmieniæ. Po dokonaniu wyboru kliknij przycisk Dalej.
+
+Odnoœnie emulatora terminala, zamierzam trzymaæ siê górnej opcji, która jest minimalnym emulatorem terminala, który uruchamia œrodowisko pow³oki bash.
+
+Po dokonaniu wyboru kliknij "Dalej". Ta strona "W³¹cz buforowanie systemu plików" jest eksperymentalna,
+
+i polecam na razie pozostawiæ to pole niezaznaczone. Kliknij "Dalej", a teraz instalujemy Git dla Windows.
+
+Po zakoñczeniu procesu instalacji na ostatniej stronie mo¿emy cofn¹æ zaznaczenie, aby wyœwietliæ README.
+
+Nastêpnie kliknij przycisk "Zakoñcz". Teraz zamknij Google Chrome. Skoro ju¿ tu jesteœmy, sprawdŸmy, czy Git dla Windows ma ikonê na naszym pulpicie.
+
+Wygl¹da na to, ¿e tam jest. Teraz dwukrotnie kliknij na Git Bash, aby po raz pierwszy wystrzeliæ Git Bash.
+
+Teraz, gdy ju¿ to zrobiliœmy, sprawdŸmy, czy Git jest zainstalowany. Wpisz git, czyli g-i-t, spacja, wersja. Gdy to zrobisz, naciœnij klawisz Enter.
+
+Git powinien odpowiedzieæ wersj¹ Git, która jest zainstalowana.
+
+Aby zamkn¹æ Git Bash, mo¿emy klikn¹æ przycisk zamykania, który jest czêœci¹ okna, lub mo¿emy wpisaæ polecenie "exit".

@@ -1,0 +1,19 @@
+Teraz, gdy stworzyliœmy nasze pierwsze repozytorium na GitHub, musimy przygotowaæ nasz system lokalny, zanim bêdziemy mogli kontynuowaæ.
+
+Bêdê wykonywaæ wiêkszoœæ mojej pracy w linii poleceñ. W systemie Windows u¿yj Git Bash.
+
+Na komputerze Mac u¿yj domyœlnej aplikacji terminalowej lub programu terminalowego innej firmy, np. ITerm 2,
+
+w³aœnie tego u¿ywam. Tak czy inaczej komendy Git bêd¹ takie same.
+
+Teraz otwórz program terminalowy. Domyœlnie twój program terminalowy powinien umieœciæ ciê w katalogu domowym u¿ytkownika.
+
+Które mo¿emy potwierdziæ, wpisuj¹c "pwd". Lubiê zarz¹dzaæ wszystkimi moimi projektami razem,
+
+w katalogu projektów w katalogu mojego u¿ytkownika. Aby utworzyæ ten typ katalogu:
+
+"mkdir projects", a nastêpnie naciœnij enter. Nastêpnie przejdŸ do tego katalogu.
+
+"cd projects", naciœnij enter, teraz jeœli "pwd",
+
+Widaæ, ¿e znajdujemy siê teraz w folderze Moje projekty pod katalogiem osobistym u¿ytkownika.

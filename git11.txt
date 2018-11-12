@@ -1,0 +1,47 @@
+Teraz, gdy nasz system lokalny jest gotowy do pracy, wróæmy do przegl¹darki, w której skoñczyliœmy,
+
+który powinien znajdowaæ siê na g³ównej stronie naszego nowego repozytorium. Teraz chcê uzyskaæ kopiê tego repozytorium w moim systemie lokalnym.
+
+Proces ten nazywa siê klonowaniem repozytorium.
+
+ZnajdŸ opcje klonów u do³u po prawej stronie.
+
+Upewnij siê, ¿e wybrano HTTPS. A nastêpnie kliknij przycisk Kopiuj, aby skopiowaæ adres URL HTTPS dla repozytorium
+
+do schowka twojego systemu. Jeœli z jakiegoœ powodu ten przycisk jest niedostêpny lub nie dzia³a,
+
+po prostu wybierz adres URL HTTPS, a nastêpnie rêcznie skopiuj go do schowka.
+
+Teraz gotowe, wróæ do terminala i wpisz "git clone", a teraz wklej adres URL GitHub.
+
+Dwukrotnie sprawdŸ ten wiersz, a nastêpnie naciœnij enter. Git przejdzie teraz do GitHub,
+
+i wykonaj pe³n¹ kopiê naszego repozytorium na GitHub do naszego lokalnego systemu.
+
+W ten sposób Git automatycznie utworzy katalog nazwany po naszym repozytorium.
+
+Które mo¿emy potwierdziæ, wpisuj¹c "ls", a nastêpnie wciskamy enter, który wymienia zawartoœæ naszego aktualnego katalogu.
+
+Teraz przejdŸmy do naszego katalogu lokalnego repozytorium: "cd github-demo /"
+
+Teraz, jeœli "ls", widzimy, ¿e mamy nasz plik README, który zosta³ utworzony po zainicjowaniu
+
+nasze repozytorium na GitHub. Teraz, jeœli zapytam Gita o stan repozytorium o "statusie git",
+
+Status Git mówi nam, ¿e jestem w g³ównej ga³êzi.
+
+Ga³¹Ÿ master jest domyœlnie ga³êzi¹ dla repozytorium Git.
+
+Polecenie "git status" mówi nam równie¿, ¿e master jest aktualny z "origin / master",
+
+która odnosi siê do ga³êzi g³ównej w wersji repozytorium GitHub.
+
+Polecenie git clone automatycznie ustawia relacjê z powrotem do repozytorium na GitHub
+
+i nazwa³ to Ÿród³o odniesienia. Wreszcie, Git mówi nam, ¿e katalog roboczy jest czysty.
+
+Katalog roboczy to miejsce, w którym wykonujemy ca³¹ pracê, a Git monitoruje zmiany.
+
+U¿ywamy polecenia "git status", aby sprawdziæ, czy miêdzy katalogiem roboczym s¹ jakieœ zmiany,
+
+obszar przemieszczania, nasze lokalne repozytorium i nasze zdalne repozytorium.

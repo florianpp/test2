@@ -1,0 +1,36 @@
+Wiêkszoœæ mojego kursu bêdzie wykonywana z linii poleceñ.
+
+Z pewnoœci¹ rozumiem, jeœli czujesz siê trochê onieœmielony przy u¿yciu wiersza poleceñ, zw³aszcza jeœli nigdy wczeœniej go nie u¿ywa³eœ.
+
+Jednak; Przeprowadzê ciê krok po kroku, ka¿de polecenie po drodze.
+
+Nie ma nic z³ego w korzystaniu z klienta graficznego; ale mocno wierzê, ¿e rozpoczêcie od linii poleceñ jest najlepszym sposobem na poznanie Gita.
+
+Mo¿na siê zastanawiaæ dlaczego, a mo¿e nawet uwa¿aæ, ¿e linia poleceñ jest krokiem wstecz.
+
+Oto moje powody; po pierwsze, istnieje silna historia z wiersza poleceñ w Git.
+
+Zosta³ pierwotnie zaprojektowany jako narzêdzie wiersza poleceñ, a graficzni klienci przyszli póŸniej.
+
+W rezultacie nowe funkcje trafiaj¹ na liniê poleceñ, zanim zostan¹ zintegrowane z klientem graficznym.
+
+Dla mnie jednym z najbardziej istotnych powodów jest pomoc online:
+
+Prawie ca³a pomoc online, strony internetowe, blogi lub inne samouczki korzystaj¹ z wiersza poleceñ
+
+jako standardowy sposób informowania o tym, jak Git coœ robi.
+
+Istniej¹ dziesi¹tki klientów graficznych, ale ka¿dy ma te same polecenia w Git.
+
+Z kilkoma wyj¹tkami. Ponadto linia poleceñ ma wiêcej mocy.
+
+Wiêkszoœæ klientów graficznych implementuje tylko podstawowe lub wspólne polecenia,
+
+ale zostaw niektóre bardzo potê¿ne opcje. Tylko linia poleceñ zapewnia ca³¹ surow¹ moc Gita.
+
+Podobnie jak mój argument pomocy online,
+
+przejœcie linii poleceñ pozwala mi na jeden zestaw poleceñ w Git, który bêdzie dzia³a³ na Windowsie, Mac OS, a nawet Linuksie.
+
+Wska¿ê wszystkie polecenia, Git lub inne, które s¹ unikalne dla platformy.
+Wiêkszoœæ

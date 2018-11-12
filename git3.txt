@@ -1,0 +1,46 @@
+2141/5000
+Zanim zanurkujemy, istnieje tylko kilka koncepcji, które musisz znaæ.
+
+Po pierwsze, w Git, kolekcje plików kontroli wersji przechowywane s¹ razem w repozytorium.
+
+Repozytorium zawiera równie¿ historiê zmian i dowoln¹ specjaln¹ konfiguracjê.
+
+Mówi¹c ogólnie, repozytorium zawiera³oby wszystkie pliki zwi¹zane z konkretnym projektem lub aplikacj¹.
+
+Nastêpnie musisz wiedzieæ o trzech stanach lokalnych zwi¹zanych z plikami zarz¹dzanymi przez Git:
+
+katalog roboczy, obszar przemieszczania i repozytorium Git lub historiê zatwierdzeñ.
+
+Katalog roboczy to katalog lub folder na komputerze, który przechowuje wszystkie pliki projektu lub aplikacji.
+
+Pliki w katalogu roboczym mog¹, ale nie musz¹ byæ zarz¹dzane przez Git; jednak Git jest tego œwiadomy.
+
+Zwykle w katalogu roboczym znajduje siê ukryty folder o nazwie ".git",
+
+zawieraj¹cy rzeczywiste repozytorium Git. Repozytorium Git zarz¹dza histori¹ zatwierdzania Git
+
+to znaczy wszystkie zmiany, które zosta³y sfinalizowane i na sta³e wchodz¹ w sk³ad repozytorium Git.
+
+Pomiêdzy nimi znajduje siê obszar inscenizacji Gita, czêsto nazywany indeksem Git,
+
+to jest obszar utrzymywania dla kolejkowania zmian dla nastêpnego zatwierdzenia.
+
+Poniewa¿ pliki w obszarze przemieszczania nie zosta³y jeszcze zatwierdzone, mo¿esz przenosiæ je do iz obszaru przemieszczania
+
+bez wp³ywu na repozytorium Git i historiê zmian.
+
+Trzy stany Git s¹ specyficzne dla lokalnego repozytorium Git, ale ja lubiê przylepiaæ czwarty stan: stan zdalny.
+
+Chocia¿ zdalne repozytorium jest tylko innym repozytorium z w³asnym trzema stanami wewnêtrznie,
+
+koncepcyjnie, uwa¿am, ¿e zdalne repozytorium jest czwartym stanem, poniewa¿ jest to ostatni krok w podstawowym przep³ywie pracy Git,
+
+a poniewa¿ niewiele osób u¿ywa Git bez odpowiedniego zdalnego repozytorium.
+
+Ostatni¹ koncepcj¹ jest ga³¹Ÿ g³ówna. Koncepcyjnie ga³êzie dzia³aj¹ tak, jak robi¹ to w innych systemach kontroli Ÿród³a:
+
+s¹ to osie czasu, które zawieraj¹ twoje zmiany. W Git ga³êzie zawieraj¹ zatwierdzenia.
+
+Kiedy zaczynamy, Git dostarcza nam domyœln¹ ga³¹Ÿ o nazwie master.
+
+Œwietny! To wszystko, co chcia³em obj¹æ w tym momencie; Omówiê wiêcej pomys³ów póŸniej i podczas demonstracji w kolejnych filmach.
