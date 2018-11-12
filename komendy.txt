@@ -1,0 +1,4 @@
+1. sprawdzenie zmian	 git status
+2. dodanie do folderu	 git add *.txt
+3. dodanie	       	git commit -m "komentarz"
+4. synchro		git push -u origin master	
