@@ -1,3 +1,5 @@
+
+
 W tym filmie omówiê, jak rozpocz¹æ nowy projekt bez ¿adnego istniej¹cego kodu Ÿród³owego.
 
 W ramach tego demo zamierzam u¿yæ tekstu wype³niacza ze strony internetowej hipster ipsum,
